@@ -3,7 +3,6 @@ import numpy as np
 import ast
 from functools import reduce
 
-
 def get_time_block(hour: int) -> str:
     if 0 <= hour < 6:
         return "early_morning"
@@ -14,7 +13,6 @@ def get_time_block(hour: int) -> str:
     else:
         return "evening"
 
-
 def sanitize_column_names(df: pd.DataFrame) -> pd.DataFrame:
     df.columns = (
         df.columns
@@ -23,7 +21,6 @@ def sanitize_column_names(df: pd.DataFrame) -> pd.DataFrame:
         .str.strip("_")
     )
     return df
-
 
 def process_mACStatus(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
@@ -57,7 +54,6 @@ def process_mACStatus(df: pd.DataFrame) -> pd.DataFrame:
 
     return pd.DataFrame(results)
 
-
 def process_mActivity(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
     df["timestamp"] = pd.to_datetime(df["timestamp"])
@@ -74,9 +70,7 @@ def process_mActivity(df: pd.DataFrame) -> pd.DataFrame:
         row["dominant_activity"] = group["m_activity"].mode()[0]
         row["num_unique_activities"] = group["m_activity"].nunique()
         summary.append(row)
-
     return pd.DataFrame(summary)
-
 
 def process_mBle(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
@@ -124,7 +118,6 @@ def process_mBle(df: pd.DataFrame) -> pd.DataFrame:
     grouped.drop(columns=["device_class_0_cnt", "device_class_others_cnt"], inplace=True)
     return grouped
 
-
 def add_behavioral_features(df: pd.DataFrame) -> pd.DataFrame:
     df["is_outdoor_like_alt"] = (
         (df["step_sum"] > 1500)
@@ -138,7 +131,6 @@ def add_behavioral_features(df: pd.DataFrame) -> pd.DataFrame:
         (df["light_night_mean"] > 100) & (df["light_night_ratio"] > 0.4)
     ).astype(int)
     return df
-
 
 def merge_all_features(feature_dfs: list) -> pd.DataFrame:
     merged = reduce(
