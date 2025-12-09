@@ -8,7 +8,6 @@ from .model import (
     get_voting_model_logistic,
 )
 
-
 def train_all_targets(X: pd.DataFrame, train_df: pd.DataFrame, test_X: pd.DataFrame):
 
     targets_binary = ["Q1", "Q2", "Q3", "S2", "S3"]
@@ -69,5 +68,5 @@ def train_all_targets(X: pd.DataFrame, train_df: pd.DataFrame, test_X: pd.DataFr
     model_s1_weighted.fit(X_topk, y_multi, sample_weight=s1_sample_weights)
     multiclass_pred = model_s1_weighted.predict(test_X_topk)
 
-    print(" 모든 타깃 학습 및 예측 완료!")
+    print(" 모든 타깃 학습 및 예측 완료")
     return binary_preds, multiclass_pred
