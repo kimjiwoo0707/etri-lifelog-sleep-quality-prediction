@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 
-
 def generate_submission(
     sample_submission: pd.DataFrame,
     multiclass_pred: np.ndarray,
@@ -28,7 +27,6 @@ def generate_submission(
     submission.to_csv(output_path, index=False)
     print(f" Saved: {output_path} ({len(submission)} rows)")
     return submission
-
 
 def compare_submissions(csv_path_1: str, csv_path_2: str):
 
