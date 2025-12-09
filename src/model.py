@@ -19,9 +19,7 @@ common_params = {
     "verbosity": -1,
 }
 
-
 def cross_val_predict_average(X, y, test_X, model_fn, n_splits=5):
-
     preds = np.zeros((len(test_X),))
     skf = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=42)
 
@@ -68,15 +66,11 @@ def get_voting_model_logistic():
 
 
 def get_stacking_preds(X, y, model_fn, n_splits=5):
-
     meta_preds = np.zeros(len(X))
     skf = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=42)
-
     for fold, (train_idx, val_idx) in enumerate(skf.split(X, y)):
-        print(f"🔁 Stacking Fold {fold+1}/{n_splits} 시작")
         model = model_fn()
         model.fit(X.iloc[train_idx], y.iloc[train_idx])
         meta_preds[val_idx] = model.predict(X.iloc[val_idx])
-        print(f"✅ Fold {fold+1} 완료")
-
+        
     return meta_preds
