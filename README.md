@@ -31,25 +31,23 @@
 
 수집된 주요 데이터 항목은 다음과 같다.
 
-스마트폰 기반 데이터
+### 📊 수집 데이터 항목 (멀티모달)
 
-활동 인식 정보 (mActivity)
+| 구분 | 데이터 항목 | 설명 |
+|----|-----------|------|
+| 스마트폰 | mACStatus | 스마트폰 충전 여부 |
+| 스마트폰 | mActivity | 사용자 활동 정보 |
+| 스마트폰 | mAmbience | 주변 소리 레이블 및 확률 |
+| 스마트폰 | mBle | 블루투스 기기 정보 |
+| 스마트폰 | mGps | GPS 좌표 정보 |
+| 스마트폰 | mLight | 주변 조도 |
+| 스마트폰 | mScreenStatus | 화면 사용 여부 |
+| 스마트폰 | mUsageStats | 앱 사용 통계 |
+| 스마트폰 | mWifi | Wi-Fi 기기 정보 |
+| 스마트워치 | wHr | 심박수 |
+| 스마트워치 | wLight | 주변 조도 |
+| 스마트워치 | wPedo | 걸음 수 |
 
-주변 소리 레이블 및 확률 (mAmbience)
-
-GPS, Wi-Fi, Bluetooth 신호 (mGps, mWifi, mBle)
-
-화면 사용 상태 및 앱 사용 통계 (mScreenStatus, mUsageStats)
-
-주변광 정보 (mLight)
-
-웨어러블 기반 데이터
-
-심박수 측정값 (wHr)
-
-걸음 수 데이터 (wPedo)
-
-주변광 정보 (wLight)
 
 🎯 예측 대상 지표
 
