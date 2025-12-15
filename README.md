@@ -19,7 +19,7 @@
 ---
 📂 데이터셋 설명 (ETRI Lifelog Dataset)
 
-본 연구에서는 ETRI가 2024년에 공개한 라이프로그 데이터셋을 사용하였다.[데이터 링크](https://dacon.io/competitions/official/236468/overview/description))
+본 연구에서는 ETRI가 2024년에 공개한 라이프로그 데이터셋을 사용하였다.   [데이터 링크](https://dacon.io/competitions/official/236468/overview/description)
 해당 데이터셋은 스마트폰, 스마트워치, 수면 센서 및 자가 보고 애플리케이션을 활용하여
 12주 동안 50명의 참가자로부터 수집된 실제 생활 기반 데이터로 구성되어 있다.
 
