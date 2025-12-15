@@ -94,6 +94,8 @@
 
 ---
 
+<img width="1097" height="651" alt="image" src="https://github.com/user-attachments/assets/a7d28204-da02-4216-aac3-286ebf28a5bb" />
+
 🧠 수행 내용 및 접근 방법
 
 라이프로그 기반 시계열 데이터 전처리 및 특징 엔지니어링
