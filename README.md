@@ -103,7 +103,8 @@
 
 평가지표: **Macro F1-Score**  
   
-<img width="562" height="52" alt="image" src="https://github.com/user-attachments/assets/6dfa7742-6a84-42ca-b0fb-708117f8d5d6" />
+<img width="607" height="58" alt="image" src="https://github.com/user-attachments/assets/c5c919c2-5825-419b-843d-fb532cee7fb1" />
+
 
 본 대회는 6개 예측 지표(Q1–Q3, S1–S3)에 대해 각각 Macro F1-score를 산출한 뒤, 이들의 평균을 최종 점수로 사용하는 방식으로 평가된다.
 
