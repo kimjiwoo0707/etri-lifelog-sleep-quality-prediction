@@ -93,6 +93,7 @@
 본 프로젝트에서는 이러한 **주관적·객관적 지표를 동시에 예측하는 멀티태스크 분류 문제**로 접근하였다.
 
 ---
+## 📰 사용 모델
 
 <img width="1097" height="651" alt="image" src="https://github.com/user-attachments/assets/a7d28204-da02-4216-aac3-286ebf28a5bb" />
 
