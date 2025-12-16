@@ -99,15 +99,16 @@
 
 ---
 
-📈 평가 방식
+## 📰 평가 방식
 
-평가지표: Macro F1-Score
+평가지표: Macro F1-Score  
 <img width="562" height="52" alt="image" src="https://github.com/user-attachments/assets/6dfa7742-6a84-42ca-b0fb-708117f8d5d6" />
 
 본 대회는 6개 예측 지표(Q1–Q3, S1–S3)에 대해 각각 Macro F1-score를 산출한 뒤, 이들의 평균을 최종 점수로 사용하는 방식으로 평가된다.
 
 Public Leaderboard는 전체 테스트 데이터의 44%를 사용하여 모델 성능에 대한 피드백을 제공하며, 최종 순위는 전체 테스트 데이터를 사용한 Private Leaderboard 점수를 기준으로 산정된다.
 
+---
 💡 대회에서 얻은 경험
 
 실제 센서 기반 라이프로그 데이터를 활용한 인간 행동·수면 상태 분석 경험
