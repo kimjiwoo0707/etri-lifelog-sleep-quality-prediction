@@ -101,7 +101,7 @@
 
 📈 평가 방식
 
-평가지표: Macro F1-score
+평가지표: Score=61​(F1macroQ1​+F1macroQ2​+F1macroQ3​+F1macroS1​+F1macroS2​+F1macroS3​)
 
 Public Leaderboard 점수를 통한 모델 성능 피드백 후
 Private Leaderboard 점수 기준으로 최종 순위 산정
