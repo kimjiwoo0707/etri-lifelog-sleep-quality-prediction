@@ -97,15 +97,7 @@
 
 <img width="1097" height="651" alt="image" src="https://github.com/user-attachments/assets/a7d28204-da02-4216-aac3-286ebf28a5bb" />
 
-🧠 수행 내용 및 접근 방법
-
-라이프로그 기반 시계열 데이터 전처리 및 특징 엔지니어링
-
-멀티 타깃(Multi-target) 예측 문제로 문제 정의
-
-Public Leaderboard를 활용한 반복 실험 및 모델 성능 개선
-
-Private Leaderboard 기준 성능 최적화
+---
 
 📈 평가 방식
 
