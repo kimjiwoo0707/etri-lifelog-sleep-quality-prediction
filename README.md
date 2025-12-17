@@ -125,3 +125,42 @@ Public Leaderboard는 전체 테스트 데이터의 44%를 사용하여 모델 �
 [정리]
 
 본 대회를 통해 라이프로그 기반 인간 이해 문제를 데이터 중심으로 접근하고, 연구 목적의 복합 센서 데이터를 활용한 예측 모델을 설계·개선하는 경험을 쌓을 수 있었다. 특히 연구 중심 환경에서 **상위 10% 이내**의 성과를 달성했다는 점에서 의미 있는 경험이었다.
+
+---
+
+## Skills
+
+<div align="left">
+
+<!-- Python -->
+<img src="https://img.shields.io/badge/Python-FDE68A?style=for-the-badge&logo=python&logoColor=white"/>
+
+<!-- PyTorch -->
+<img src="https://img.shields.io/badge/PyTorch-FECACA?style=for-the-badge&logo=pytorch&logoColor=white"/>
+
+<!-- NumPy -->
+<img src="https://img.shields.io/badge/NumPy-A7F3D0?style=for-the-badge&logo=numpy&logoColor=white"/>
+
+<!-- Pandas -->
+<img src="https://img.shields.io/badge/Pandas-BFDBFE?style=for-the-badge&logo=pandas&logoColor=white"/>
+
+<!-- scikit-learn -->
+<img src="https://img.shields.io/badge/scikit--learn-C7D2FE?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+
+<!-- Multimodal Data -->
+<img src="https://img.shields.io/badge/Multimodal_Data-FBCFE8?style=for-the-badge&logo=databricks&logoColor=white"/>
+
+<!-- Time Series -->
+<img src="https://img.shields.io/badge/Time_Series_Analysis-E9D5FF?style=for-the-badge&logo=clockify&logoColor=white"/>
+
+<!-- Feature Engineering -->
+<img src="https://img.shields.io/badge/Feature_Engineering-BAE6FD?style=for-the-badge&logo=apacheairflow&logoColor=white"/>
+
+<!-- Model Optimization -->
+<img src="https://img.shields.io/badge/Model_Optimization-D1FAE5?style=for-the-badge&logo=weightsandbiases&logoColor=white"/>
+
+<!-- Research Competition -->
+<img src="https://img.shields.io/badge/Research_AI_Competition-FDE2E2?style=for-the-badge&logo=academia&logoColor=white"/>
+
+</div>
+
